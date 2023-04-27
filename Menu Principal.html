@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Rosea style</title>
+    <link rel="stylesheet" href="ex4.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+    <style>
+        html{
+            height: 100%;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+        main {
+            flex-grow: 1;
+        }
+        footer {
+            color: #fff;
+            text-align: center;
+            padding: 8px;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <h1>Rosea style</h1>
+        <nav>
+            <ul>
+                <a href="Minha conta.html">
+                    <img src="image-removebg-preview_2.png" width="30px" alt="minha conta">
+                </a>
+            </ul>
+			<ul>
+				<a href="produtos1.html">
+					<img src="carriho1-removebg-preview.png" width="30px" alt="carrinho">
+				</a>
+			</ul>
+        </nav>
+    </header>
+
+    <main>
+        <form action="jorge.html" method="get">
+            <input type="text" name="pesquisa" placeholder="Pesquisar produtos...">
+            <button type="submit">Pesquisar</button>
+        </form>
+    </main>
+    
+	<div class="product-list">
+		<div class ='main-carousel'>
+				<li data-product-id="1" class="carousel-cell">
+				<img src="nome_da_imagem.jpg" width="800" height="600"> 
+                <img src="caminho/para/imagem.jpg" alt="Em estoque." width="400" height="300">
+
+				<h2>Batom-Marília Mendonça</h2>
+				<p>Cor: Vermelho.
+                </p>
+				<button class="add-to-favorites">Adicionar aos Favoritos</button>
+			</li> 
+				<li data-product-id="2" class="carousel-cell">
+				<img src="imagens/imagem2.jpg" width="800" height="600">
+                <img src="caminho/para/imagem.jpg" alt="descrição da imagem" width="400" height="300">
+				<h2>paleta de sombra</h2>
+				<p>batons,lapis,kit de cores</p>
+				<button class="add-to-favorites">Adicionar aos Favoritos</button>
+			</li>
+				<li data-product-id="3" class="carousel-cell">
+				<img src="kii.jpg" alt="Oferta especial" width="800" height="600">
+				<img src="caminho/para/imagem.jpg" alt="Em estoque." width="400" height="300">
+				<h2>Kit de maquiagem</h2>
+				<p>Kit completo com cores,pincel,blush e tudo</p>
+				<button class="add-to-favorites">Adicionar aos Favoritos</button>
+			</li>
+
+				<li data-product-id="4" class="carousel-cell">
+				<img src="cosmeticos-diurno-e-nortuno_capa.jpg" alt="Em promoção." width="800" height="600">
+				<img src="caminho/para/imagem.jpg" alt="Em estoque." width="400" height="300">
+				<h2>Creme de proteção</h2>
+				<p>Kit completo,para mão,rosto etc</p>
+				<button class="add-to-favorites">Adicionar aos Favoritos</button>
+			
+		</div>
+	</div>
+	
+	<div class="favorites">
+		<h2>Produtos Favoritos</h2>
+		<ul></ul>
+	</div>
+	<script src="roseapink.js"></script>
+	<script src="script.js"></script> 
+    <script src="carousel.js"></script>
+
+    <footer>
+        <p>&copy; 2023 Rosea style.</p>
+    </footer>
+</body>
+</html>

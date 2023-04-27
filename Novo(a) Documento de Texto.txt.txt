@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Minha loja online</title>
+</head>
+<body>
+	<header>
+		<h1>Minha loja online</h1>
+	</header>
+	
+	<nav>
+		<ul>
+			<li><a href="#">Início</a></li>
+			<li><a href="#">Produtos</a></li>
+			<li><a href="#">Carrinho</a></li>
+			<li><a href="#">Favoritos</a></li>
+		</ul>
+	</nav>
+	
+	<section>
+		<h2>Produtos</h2>
+		<!-- Aqui ficarão os produtos -->
+	</section>
+	
+	<footer>
+		<p>&copy; 2023 - Minha loja online</p>
+	</footer>
+</body>
+</html>

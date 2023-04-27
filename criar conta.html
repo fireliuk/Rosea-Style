@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criar contar</title>
+    <link rel="stylesheet" href="criarconta.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+    <form action="Menu Principal.html">
+    <div>
+        <label for="fname" style="color: rgb(247, 14, 255);">Nome: </label>
+        <input type="text" id="fname" name="fname" required >
+        <label for="lname"style="color: rgb(247, 14, 255);">Sobrenome:</label>
+        <input type="text" id="lname" name="lname" required>
+        
+    </div>
+    <div>
+        <label for="DataN"style="color: rgb(247, 14, 255);">Data de Nascimento:</label>
+        <input type="date" id="DataN" name="DataN" required>
+    </div>
+
+    <div>
+        <label for="NEmail"style="color: rgb(247, 14, 255);">Email:</label>
+        <input type="email" id="Nemail name="Nemail" required>
+    </div>
+
+    <div>
+        <label for=CNEmail style="color:rgb(247, 14, 255);">Confirmar Email:</label>
+        <input type="email" id="CNemail" name="CNemail" required>
+    </div>
+    
+    
+    <div>
+        <label for="Npass" style="color:rgb(247, 14, 255);"> Senha(8 characters minimum):</label>
+        <input type="password" id="Npass" name="Npassword"
+               minlength="8" required>
+    </div>
+
+    <div>
+        <label for="CNpass"style="color:rgb(247, 14, 255);">Confrima Senha(8 characters minimum):</label>
+        <input type="password" id="CNpass" name="CNpassword"
+               minlength="8" required>
+    </div>
+    <div> <input type="checkbox" id="termo" name="'termo" value="termos&condiçoes" required>
+        <label for="termo" style="color: rgb(247, 14, 255);" >Li e concordo com os Termos de Serviço e a Política de Privacidade</label>
+        <input type="checkbox" id="Oferta" name="Oferta" value="Oferta">
+        <label for="Oferta" style="color: rgb(247, 14, 255);"></label>
+    <input type="submit" value="Criar conta">
+</div>
+
+   
+ </form>
+</body>
+</html>

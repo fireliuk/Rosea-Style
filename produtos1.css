@@ -1,0 +1,174 @@
+/* Cor de fundo do corpo da página */
+body {
+
+    background-image: url('https://th.bing.com/th/id/R.3c800e1b8436df2597978a0ee9bffd00?rik=K7mxbdnjBMColQ&pid=ImgRaw&r=0');
+    }
+    
+    /* Estilo da barra de navegação */
+    nav {
+    background-color: #ff99cc;
+    padding: 10px;
+
+    }
+    
+    /* Estilo dos links da barra de navegação */
+    nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    }
+    
+    article{
+        background-color: #fff;
+        color: #cc6699;
+        padding: 5px 10px;
+        border: 2px solid #cc6699;
+        border-radius: 5px;
+        text-decoration: none;
+    }
+
+    h1{
+        background-color: #fff;
+        color: #cc6699;
+        padding: 5px 10px;
+
+        border-radius: 5px;
+  
+    }
+
+    nav a:hover {
+    background-color: #cc6699;
+    
+    }
+    
+    /* Estilo do banner principal */
+    .banner {
+    background-image: url('https://th.bing.com/th/id/R.3c800e1b8436df2597978a0ee9bffd00?rik=K7mxbdnjBMColQ&pid=ImgRaw&r=0');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 10% 10% 10% 10%
+    }
+    
+    .banner h1 {
+    font-size: 94px;
+    margin-bottom: 30px;
+    }
+    
+
+    .banner p {
+    font-size: 48px;
+    margin-bottom: 20px;
+    }
+    
+    /* Estilo dos botões */
+    .btn-primary {
+        background-color: #e667bf;
+        color: #fff;
+        padding: 10px 20px;
+        border-radius: 20px;
+        text-decoration: none;
+        transition: all 0.3s ease;
+        border-radius: 10% 10% 10% 10%
+    }
+
+    button{
+        background-color: #fff;
+        color: #cc6699;
+        padding: 5px 10px;
+        border: 2px solid #cc6699;
+        border-radius: 5px;
+        text-decoration: none;
+    }
+    .btn-primary:hover {
+        background-color: #cc6699;
+        border-radius: 50px;
+    }
+    .btn-secondary {
+    background-color: #fff;
+    color: #cc6699;
+    padding: 5px 10px;
+    border: 2px solid #cc6699;
+    border-radius: 5px;
+    text-decoration: none;
+    }
+    
+    .btn-secondary:hover {
+    background-color: #cc6699;
+    color: #fff;
+    text-decoration: none;
+    }
+    
+    /* Estilo dos produtos em destaque */
+    .produtos {
+    background-color: #fff;
+    padding: 50px;
+    }
+    
+    .produtos h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #cc6699;
+    }
+    
+    .produtos ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+    
+    .produtos li {
+    width: calc(33.33% - 20px);
+    margin-bottom: 40px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    }
+    
+    .produtos img {
+    display: block;
+    width: 100%;
+    height: 60%;
+    margin-bottom: 10px;
+    border-radius: 10px 10px 0 0;
+    }
+    
+    section.produtos{
+        border-radius: 5% 5% 5% 5%
+    }
+
+    .produtos h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    }
+    
+    .produtos p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    }
+    
+    /* Estilo da seção "Sobre Nós" */
+    .sobre {
+    background-color: #cc6699;
+    padding: 50px;
+    color: #fff;
+    border-radius: 5% 5% 5% 5%
+    }
+    
+    .sobre h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    }
+    
+    /* Estilo do rodapé */
+    footer {
+    background-color: #ff99cc; }
